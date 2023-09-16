@@ -1,5 +1,387 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: #242B33;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+nav {
+    width: 1920px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%);
+    background-image: url(./images/Rectangle.png);
+    background-repeat: no-repeat;
+    padding-bottom: 74px;
+}
+
+nav .box-group .item {
+    padding: 30px 405px;
+}
+
+nav .box-group .item .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .box-group .item .box .box-1 h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+nav .box-group .item .box .box-1 p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.12em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+nav .box-group .item .box .box-2 ul {
+    display: flex;
+    gap: 40px;
+    resize: none;
+}
+
+nav .box-group .item .box .box-2 ul li {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+nav .box-group .head {
+    width: 582px;
+    margin: 150px auto;
+}
+
+nav .box-group .head h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #D4C17F;
+}
+
+nav .box-group .head .img {
+    width: 40px;
+    height: 40px;
+    margin: 100px auto 200px auto;
+}
+
+nav .box-group .head .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .box-group .head .box .box-1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+nav .box-group .head .box .box-1 p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.section_group-1 {
+    width: 1920px;
+    margin: 0 auto;
+    padding: 120px 415px 0px 415px;
+}
+
+.section_group-1 .section-1 {
+    width: 794px;
+    margin: 0 auto;
+}
+
+.section_group-1 .section-1 .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section_group-1 .section-1 .box .box-1 {
+    width: 193px;
+}
+
+.section_group-1 .section-1 .box .box-1 img {
+    width: 80px;
+    height: 80px;
+    margin: 0px 60px;
+    margin-bottom: 53px;
+}
+
+.section_group-1 .section-1 .box .box-1 p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.section_group-1 .section-2 {
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.section_group-1 .section-2 h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #D4C17F;
+    margin-bottom: 100px;
+}
+
+.section_group-1 .section-2 .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.section_group-1 .section-2 .box-1 {
+    background-image: url(./images/Rectangle.picture.png);
+    width: 535px;
+    height: 320px;
+    padding: 248px 132px 50px 50px;
+}
+
+.section_group-1 .section-2 .box .box-1 p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.section_group-2{
+    width: 1920px;
+    margin: 0 auto;
+    background-image:url(./images/Rectangle.picture-1.png);
+    padding: 180px 405px;
+    background-repeat: no-repeat;
+}
+.section_group-2 .section-1 h2{
+font-size: 36px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+color:#D4C17F;
+margin-bottom: 50px;
+}
+.section_group-2 .section-1 .box{
+    display: flex;
+    justify-content: space-between;
+}
+.section_group-2 .section-1 .box .box-1{
+    width: 535px;
+}
+.section_group-2 .section-1 .box .box-1 p{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color:#E7E7E7;
+}
+.section_group-2 .section-1 .box .box-2{
+    width: 540px;
+}
+.section_group-2 .section-1 .box .box-2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.section_group-2 .section-1 .box .box-2 input{
+    opacity: 20%;
+    padding: 12px 40px;
+    background-color:#FFFFFF;
+    color:#252525;
+font-size: 14px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.section_group-2 .section-1 .box .box-2 p{
+    width: 255px;
+font-size: 13px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: center;
+color:#E7E7E7;
+}
+.section_group-2 .section-1 .box .box-2 button{
+    padding: 12px 50px;
+    background-color:#D4C17F;
+    color:#BEBEBE;
+font-size: 16px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+color:#FFFFFF;
+}
+.section_group-3{
+    width: 1920px;
+    margin: 0 auto;
+}
+.section_group-3 .images{
+    width: 719px;
+    height: 650px;
+    margin:0 auto;
+    padding: 275px 310px;
+    background-image:url(./images/Rectangle\ 2.picture.png);
+    background-repeat: no-repeat;
+}
+.section_group-4{
+    width: 1920px;
+    margin: 0 auto;
+    padding: 180px 405px;
+}
+.section_group-4 .section-1{
+    margin-bottom: 180px;
+}
+.section_group-4 .section-1 h2{
+font-size: 36px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+color:#D4C17F;
+margin-bottom: 100px;
+}
+.section_group-4 .section-2 h2{
+font-size: 36px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+color:#D4C17F;
+margin-bottom: 50px ;
+}
+.section_group-4 .section-2 .box{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.section_group-4 .section-2 .box p{
+    width: 255px;
+font-size: 13px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: center;
+color:#E7E7E7;
+}
+.section_group-4 .section-2 .box input{
+    opacity: 20%;
+    padding: 12px 40px;
+    background-color:#FFFFFF;
+    color:#252525;
+font-size: 14px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+}
+.section_group-4 .section-2 .box button{
+    padding: 12px 40px;
+    background-color:#D4C17F;
+    color:#BEBEBE;
+font-size: 16px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+color:#FFFFFF;
+}
+footer{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #2D343C;
+}
+footer .item{
+    padding: 60px 405px 51px 405px;
+    width: 1920px;
+    margin: 0 auto;
+}
+footer .item .box{
+    display: flex;
+    justify-content: space-around;
+}
+footer .item .box .box-1 h2{
+font-size: 36px;
+font-weight: 600;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: left;
+color:#FFFFFF;
+margin-bottom: 15px;
+}
+footer .item .box .box-1 p{
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0.12em;
+text-align: left;
+color: #FFFFFF;
+}
+footer .item .box .box-2 ul{
+    resize: none;
+    gap: 15px;
+}
+footer .item .box .box-2 li{
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.05em;
+text-align: left;
+color:#FFFFFF;
+margin-bottom: 15px;
+}
+footer .item .box .box-4 p{
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.05em;
+text-align: left;
+margin-bottom: 15px;
+color:#FFF;
+}
+footer .item .box .box-4 .images{
+    display: flex;
+    gap: 20.74px;
 }
