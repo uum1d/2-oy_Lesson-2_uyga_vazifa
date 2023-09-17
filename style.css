@@ -54,7 +54,7 @@ nav .box-group .item .box .box-1 p {
 nav .box-group .item .box .box-2 ul {
     display: flex;
     gap: 40px;
-    resize: none;
+    list-style: none;
 }
 
 nav .box-group .item .box .box-2 ul li {
@@ -234,6 +234,10 @@ letter-spacing: 0em;
 text-align: left;
 
 }
+.section_group-2 .section-1 .box .box-2 .input{
+display: flex;
+gap: 20px;
+}
 .section_group-2 .section-1 .box .box-2 p{
     width: 255px;
 font-size: 13px;
@@ -244,7 +248,7 @@ text-align: center;
 color:#E7E7E7;
 }
 .section_group-2 .section-1 .box .box-2 button{
-    padding: 12px 50px;
+    padding: 12px 52.4px;
     background-color:#D4C17F;
     color:#BEBEBE;
 font-size: 16px;
@@ -360,7 +364,7 @@ text-align: left;
 color: #FFFFFF;
 }
 footer .item .box .box-2 ul{
-    resize: none;
+    list-style: none;
     gap: 15px;
 }
 footer .item .box .box-2 li{
